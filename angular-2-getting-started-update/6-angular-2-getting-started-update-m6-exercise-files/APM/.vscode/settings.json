@@ -2,11 +2,10 @@
 {
     "files.exclude": {
         "**/.git": true,
-        "**/.DS_Store": true
+        "**/.DS_Store": true,
+        "**/app/**/*.js": true,
+        "**/*.map": true
     }, 
     // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange". If set to "afterDelay" you can configure the delay in "files.autoSaveDelay".
-    "files.autoSave": "afterDelay",
-    "angulardoc.repoId": "4dd65ec1-f813-44f2-b2fb-8238c2ddc843",
-    "angulardoc.lastSync": 0,
-    "vsicons.presets.angular": true
+    "files.autoSave": "afterDelay"
 }
